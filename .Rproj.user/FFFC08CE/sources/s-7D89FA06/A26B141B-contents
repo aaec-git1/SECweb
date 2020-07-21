@@ -1,0 +1,6 @@
+#This script reads in a website template recommended by DSPG to start with
+#install.packages("blogdown")
+library(blogdown)
+blogdown::new_site(theme="nathancday/min_night")
+blogdown::serve_site()
+blogdown::stop_server()
